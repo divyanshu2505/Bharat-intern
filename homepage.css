@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #e50914;
+    padding: 1rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav h1 {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    padding: 2rem;
+  }
+  
+  .video {
+    width: 50%;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .details {
+    width: 50%;
+    padding-left: 2rem;
+  }
+  
+  .details h1 {
+    color: #e50914;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .details h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .email-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .email-form input[type="email"] {
+    border: none;
+    padding: 0.5rem;
+    flex-grow: 1;
+  }
+  
+  .email-form input[type="submit"] {
+    background-color: #e50914;
+    color: #fff;
+    padding: 0.5rem 2rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333
+  }
